@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Página-1" id="7BJJK-pTnzPvQog3TZw6">
-    <mxGraphModel>
+    <mxGraphModel dx="864" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="chsoLCt5oil3FvijznNd-1" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-3" value="Atualiza o exemplar para disponível" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-4" target="chsoLCt5oil3FvijznNd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-4" target="chsoLCt5oil3FvijznNd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-4" value="Atendente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-5" target="chsoLCt5oil3FvijznNd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-5" value="Consulta acervo para verificar disponibilidade&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-6" target="chsoLCt5oil3FvijznNd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-6" value="Acessar sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-7" target="chsoLCt5oil3FvijznNd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-7" value="Localiza o empréstimo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-8" target="chsoLCt5oil3FvijznNd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-8" value="Realizar empréstimo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-10" value="Atualização do exemplar para &quot;emprestrado&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-14" target="chsoLCt5oil3FvijznNd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-14" value="Devolução" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-16" target="chsoLCt5oil3FvijznNd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-16" value="Acessa o sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="chsoLCt5oil3FvijznNd-20" target="chsoLCt5oil3FvijznNd-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chsoLCt5oil3FvijznNd-20" value="Solicita um livro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

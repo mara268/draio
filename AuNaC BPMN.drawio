@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
+  <diagram name="Página-1" id="F7bdqT-ER-5MlWBGdKAR">
+    <mxGraphModel dx="864" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GeJ39ysv4xQjzDasYRCv-2" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#CC0000);" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="620" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GeJ39ysv4xQjzDasYRCv-3" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="GeJ39ysv4xQjzDasYRCv-2">
+          <mxGeometry y="20" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GeJ39ysv4xQjzDasYRCv-4" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="GeJ39ysv4xQjzDasYRCv-2">
+          <mxGeometry y="140" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GeJ39ysv4xQjzDasYRCv-5" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="GeJ39ysv4xQjzDasYRCv-2">
+          <mxGeometry y="260" width="620" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
